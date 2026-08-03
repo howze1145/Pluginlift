@@ -1,0 +1,87 @@
+{
+    "credit":  "Original PluginLift 0.1.0-Beta flush landing door model",
+    "ambientocclusion":  false,
+    "textures":  {
+                     "door":  "pluginlift:block/landing_door_right",
+                     "trim":  "pluginlift:block/metal_light",
+                     "particle":  "pluginlift:block/landing_door_right"
+                 },
+    "elements":  [
+                     {
+                         "from":  [
+                                      0,
+                                      -0.02,
+                                      12.98
+                                  ],
+                         "to":  [
+                                    16,
+                                    32,
+                                    16.02
+                                ],
+                         "faces":  {
+                                       "down":  {
+                                                    "texture":  "#door"
+                                                },
+                                       "up":  {
+                                                  "texture":  "#door"
+                                              },
+                                       "north":  {
+                                                     "texture":  "#door",
+                                                     "uv":  [
+                                                                0,
+                                                                0,
+                                                                16,
+                                                                16
+                                                            ]
+                                                 },
+                                       "south":  {
+                                                     "texture":  "#door",
+                                                     "uv":  [
+                                                                0,
+                                                                0,
+                                                                16,
+                                                                16
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#door"
+                                                },
+                                       "east":  {
+                                                    "texture":  "#door"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      15.5,
+                                      -0.02,
+                                      12.75
+                                  ],
+                         "to":  [
+                                    17,
+                                    32,
+                                    16.1
+                                ],
+                         "faces":  {
+                                       "down":  {
+                                                    "texture":  "#trim"
+                                                },
+                                       "up":  {
+                                                  "texture":  "#trim"
+                                              },
+                                       "north":  {
+                                                     "texture":  "#trim"
+                                                 },
+                                       "south":  {
+                                                     "texture":  "#trim"
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#trim"
+                                                },
+                                       "east":  {
+                                                    "texture":  "#trim"
+                                                }
+                                   }
+                     }
+                 ]
+}

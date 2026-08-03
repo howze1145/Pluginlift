@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" E ", "RBR", " G "],
+  "key": {
+    "E": "minecraft:ender_eye",
+    "R": "minecraft:redstone",
+    "B": "minecraft:blaze_rod",
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "pluginlift:sync_tool",
+      "minecraft:custom_name": {"text": "竖井同步器", "italic": false},
+      "minecraft:lore": [{"text": "右键楼层站，将同一竖井内对齐的楼层站组装为电梯", "color": "gray", "italic": false}]
+    }
+  }
+}

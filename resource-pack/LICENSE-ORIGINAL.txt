@@ -1,0 +1,3 @@
+PluginLift 0.1.0-Beta original visual assets
+Copyright (c) 2026 PluginLift contributors.
+These assets may be redistributed together with unmodified PluginLift 0.1.0-Beta server packages. No MTR models, textures, sounds, or source assets are included.

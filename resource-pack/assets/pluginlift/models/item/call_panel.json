@@ -1,0 +1,42 @@
+{
+    "credit":  "Original PluginLift 0.1.0-Beta model",
+    "ambientocclusion":  false,
+    "textures":  {
+                     "panel":  "pluginlift:block/call_panel",
+                     "particle":  "pluginlift:block/call_panel"
+                 },
+    "elements":  [
+                     {
+                         "from":  [
+                                      2,
+                                      1,
+                                      13
+                                  ],
+                         "to":  [
+                                    14,
+                                    15,
+                                    16
+                                ],
+                         "faces":  {
+                                       "down":  {
+                                                    "texture":  "#panel"
+                                                },
+                                       "up":  {
+                                                  "texture":  "#panel"
+                                              },
+                                       "north":  {
+                                                     "texture":  "#panel"
+                                                 },
+                                       "south":  {
+                                                     "texture":  "#panel"
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#panel"
+                                                },
+                                       "east":  {
+                                                    "texture":  "#panel"
+                                                }
+                                   }
+                     }
+                 ]
+}

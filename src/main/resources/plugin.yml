@@ -1,0 +1,16 @@
+name: PluginLift
+version: '0.1.4'
+main: cn.codex.pluginlift.PluginLift
+api-version: '1.21.11'
+authors: [Codex]
+description: 2x2 virtual elevators with linked hall-call panels for Paper
+commands:
+  pluginlift:
+    description: Build and manage PluginLift elevators
+    usage: /pluginlift help
+    permission: pluginlift.use
+permissions:
+  pluginlift.use:
+    default: true
+  pluginlift.admin:
+    default: op

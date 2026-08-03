@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" R ", "GTG", " I "],
+  "key": {
+    "R": "minecraft:redstone",
+    "G": "minecraft:gold_nugget",
+    "T": "minecraft:tripwire_hook",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:tripwire_hook",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "pluginlift:connector",
+      "minecraft:custom_name": {"text": "组件连接器", "italic": false},
+      "minecraft:lore": [{"text": "依次右键楼层站和呼梯面板进行连接", "color": "gray", "italic": false}]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" I ", "CRC", " I "],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:copper_ingot",
+    "R": "minecraft:comparator"
+  },
+  "result": {
+    "id": "minecraft:comparator",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "pluginlift:panel_kit",
+      "minecraft:custom_name": {"text": "呼梯面板", "italic": false},
+      "minecraft:lore": [{"text": "右键地面放置呼梯面板", "color": "gray", "italic": false}]
+    }
+  }
+}

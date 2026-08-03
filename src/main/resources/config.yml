@@ -1,0 +1,10 @@
+# Default hosted resource pack for PluginLift 0.1.4.
+resource-pack:
+  url: 'https://mcpacks.dev/pack/9391ab9e-1a96-4ecd-b96a-9e3c6477aa46/download'
+  sha1: '4aa8cccb4502a5163c39d8a1b99ce6659a40f90f'
+  required: false
+
+defaults:
+  speed-blocks-per-second: 3.0
+  door-move-ticks: 16
+  door-open-ticks: 60

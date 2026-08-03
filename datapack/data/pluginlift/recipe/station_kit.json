@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["IRI", "IDI", "III"],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone_lamp",
+    "D": "minecraft:iron_door"
+  },
+  "result": {
+    "id": "minecraft:iron_door",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "pluginlift:station_kit",
+      "minecraft:custom_name": {"text": "楼层站套件", "italic": false},
+      "minecraft:lore": [{"text": "右键地面放置楼层站", "color": "gray", "italic": false}]
+    }
+  }
+}

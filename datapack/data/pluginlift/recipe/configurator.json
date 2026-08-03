@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" GC", " BR", "S  "],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "C": "minecraft:comparator",
+    "B": "minecraft:brush",
+    "R": "minecraft:redstone",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "pluginlift:configurator",
+      "minecraft:custom_name": {"text": "楼层设置器", "italic": false},
+      "minecraft:lore": [{"text": "右键楼层站，设置楼层编号、描述和到站提示音", "color": "gray", "italic": false}]
+    }
+  }
+}
